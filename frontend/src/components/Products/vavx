@@ -1,0 +1,8 @@
+const App = () => {
+  const[orderPopup, setOrderPopup] = React.useState(true);
+
+  const handleOrderPopup = () => {
+    setOrderPopup(!orderPopup);
+  }
+  <Popup orderPopup={orderPopup}
+      handleOrderPopup={handleOrderPopup}/>
