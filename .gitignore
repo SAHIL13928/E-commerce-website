@@ -1,0 +1,58 @@
+.vercel
+# Dependency directories
+node_modules/
+.pnpm-store/
+.pnp/
+.cache/
+yarn-error.log
+
+# Production build directory
+build/
+dist/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE or editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+
+# Optional: if using TypeScript
+# /tsconfig.json
+# /tsconfig.tsbuildinfo
+
+# Optional: if using ESLint
+# .eslintcache
+
+# Optional: if using Prettier
+# .prettierignore
+# .prettierrc
